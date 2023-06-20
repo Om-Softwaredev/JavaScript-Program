@@ -26,12 +26,23 @@
 // console.log(num2);
 // console.log(num3);
 
-var n="om"
-var num=10;
-console.log(typeof n);
-console.log(typeof num.toString());
+// var n="om"
+// var num=10;
+// console.log(typeof n);
+// console.log(typeof num.toString());
 
-var value= 13.875;
-console.log(value.toFixed());
-console.log(Number("50"));
-console.log(parseInt("10 years"));//10
+// var value= 13.875;
+// console.log(value.toFixed());
+// console.log(Number("50"));
+// console.log(parseInt("10 years"));//10
+
+// var num1=5;
+// var num2=2;
+
+// console.log(5**2);//5^2=25
+
+var num1="5";//String
+var num2=5;//Number
+
+console.log(num1==num2);//true
+console.log(num1===num2);//false
