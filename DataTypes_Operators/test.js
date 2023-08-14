@@ -46,3 +46,33 @@ var num2=5;//Number
 
 console.log(num1==num2);//true
 console.log(num1===num2);//false
+
+//Primitive Datatypes
+const BankAccountNumber=114455 //Number
+let bankHolderName="Omprakash" //String
+let isActive=true //Boolean
+let bigInteger = 1236547845632145698n //BigInt
+let temperature = undefined //undefined
+let temperature2 = null //null
+let uniqueButton = Symbol('Login') //Symbol
+
+//Non Primitive DataTypes
+    /*
+        Object
+        Array
+    */
+
+//Variables
+// var(not recommended), let(can be modified), const(cannot be modified)
+
+// const name1="om";
+// name1="omprakash";
+// console.log(name1);
+
+let name2="om";
+name2="omprakash";
+console.log(name2);
+
+//Operators
+console.log(5 == '5');//true
+console.log(5 === '5');//false
