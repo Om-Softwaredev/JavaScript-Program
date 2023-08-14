@@ -7,7 +7,6 @@
 //     weight:5000,
 //     working:true
 // }
-
 // console.log(car);
 
 //Function
